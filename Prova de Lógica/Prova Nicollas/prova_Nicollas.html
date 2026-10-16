@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>Prova Prática: Interativadade e Eventos</h1>
+<p>Nome: Nicollas Vinicius De Oliveira Pinheiro</p>
+<h2>Bloco 1 - Lista de Tarefas</h2>
+<div class="Bloco1">
+<input type="text" id="tarefaInput" placeholder="Digite uma tarefa"></input>
+<button onclick="AdicionarTarefa()">Adicionar Tarefa</button>
+<button onclick="RemoverUltimo()">Remover Última Tarefa</button>
+<button onclick="LimparTodas()">Limpar Todas as Tarefas</button>
+<ul id="lista"></ul>
+<link rel="stylesheet" href="Prova_Nicollas.css">
+</div>
+ <h1>Bloco 2 - Aluno</h1>
+<div class="Bloco2">
+    <input type="text" id="nomeInput" placeholder="Digite o nome"></input>
+    <input type="text" id="CursoInput" placeholder="Digite o Curso"></input>
+    <input type="number" id="NotaInput" placeholder="Digite a Nota"></input>
+    <button onclick="MostrarDados()">Mostrar Dados</button>
+    <p id="situação"></p>
+</div>
+<h1>Bloco 3 - Mini Jogo Interativo</h1>
+<div id="container">
+    <div id="caixa"></div>
+  </div>
+
+  <div id="mensagem"></div>
+  <button onclick="ReiniciarJogo()">Reiniciar Jogo</button>
+
+<script src="prova_Nicollas.js"></script>
+
+
+
+</body>
+</html>
